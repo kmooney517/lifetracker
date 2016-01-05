@@ -5819,6 +5819,17 @@ button.close {
 
 .angular-google-map-container {
   height: 35em;
-  width: 35em; }
+  width: 40em;
+  margin: 0 auto; }
+
+.list {
+  height: 35em;
+  width: 35em;
+  margin: 0 auto;
+  background: #F8F8F8; }
+  .list h3 {
+    text-align: center; }
+  .list li {
+    list-style: none; }
 
 /*# sourceMappingURL=main.css.map */
