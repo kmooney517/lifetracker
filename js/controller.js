@@ -1,9 +1,17 @@
-let Controller = function() {
+let Controller = function($scope) {
   
-  console.log('hi from controller');
+
+  $scope.map = { 
+    center: { 
+      latitude: 33.7482665, 
+      longitude: -84.389121
+    }, 
+    zoom: 10
+  };
+
 
 };
 
-Controller.$inject = [];
+Controller.$inject = ['$scope'];
 
 export default Controller;
